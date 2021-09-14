@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+.close {
+  margin-left: 75%;
+  padding: 20px;
+  color: #0000cd;
+  font-family: "ZCOOL KuaiLe";
+  font-size: 30px;
+}
+
+.icon-star {
+  color: goldenrod;
+  font-size: 40px;
+  animation-name: win;
+  animation-duration: 4s;
+  position: relative;
+  animation-delay: 1s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes win {
+  0% {
+    color: goldenrod;
+    left: 0;
+    top: 0;
+  }
+  25% {
+    color: #7cfc00;
+    left: 50px;
+    top: 0;
+  }
+  50% {
+    color: #ff1493;
+    left: -50px;
+    top: 50px;
+  }
+  75% {
+    color: #8a2be2;
+    left: 0;
+    top: 50px;
+  }
+  100% {
+    color: #0000ff;
+    left: 0;
+    top: 0;
+  }
+}
+
+.winner {
+  color: #0000cd;
+  font-size: 40px;
+  font-family: "ZCOOL KuaiLe";
+}
+
+.btn {
+}
+
+.icon {
+  color: #cdcdcd;
+  font-size: 35px;
+}
+
+.icon-up {
+  color: #cdcdcd;
+  font-size: 35px;
+  margin-left: 100px;
+}

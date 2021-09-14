@@ -1,0 +1,91 @@
+[class*="game-card-"] {
+  width: 200.5px;
+  height: 200.3px;
+  display: inline-block;
+  border-radius: 4px;
+  background: url("https://www.memo-juegos.com/templates/memoire/images/memory_a_imprimer/memorama_para_imprimir_mario_kart_zoom.jpg");
+}
+
+.game-card-1 {
+  background-position: 0 0;
+}
+.game-card-2 {
+  background-position: -200.5px 0;
+}
+.game-card-3 {
+  background-position: -401px 0;
+}
+.game-card-4 {
+  background-position: -601.5px 0;
+}
+.game-card-5 {
+  background-position: 0 -200.3px;
+}
+.game-card-6 {
+  background-position: -200.5px -200.3px;
+}
+.game-card-7 {
+  background-position: -401px -200.3px;
+}
+.game-card-8 {
+  background-position: -601.5px -200.3px;
+}
+.game-card-9 {
+  background-position: 0 -400.6px;
+}
+.game-card-10 {
+  background-position: -200.5px -400.6px;
+}
+.game-card-11 {
+  background-position: -401px -400.6px;
+}
+.game-card-12 {
+  background-position: -601.5px -400.6px;
+}
+.game-card-13 {
+  background-position: 0 -600.9px;
+}
+.game-card-14 {
+  background-position: -200.5px -600.9px;
+}
+.game-card-15 {
+  background-position: -401px -600.9px;
+}
+.game-card-16 {
+  background-position: -601.5px -600.9px;
+}
+.game-card-17 {
+  background-position: 0 -801.1px;
+}
+.game-card-18 {
+  background-position: -200.5px -801.1px;
+}
+.game-card-19 {
+  background-position: -401px -801.1px;
+}
+.game-card-20 {
+  background-position: -601.5px -801.1px;
+}
+.game-card-21 {
+  background-position: 0 -1001.4px;
+}
+.game-card-22 {
+  background-position: -200.5px -1001.4px;
+}
+.game-card-23 {
+  background-position: -401px -1001.4px;
+}
+.game-card-24 {
+  background-position: -601.5px -1001.4px;
+}
+
+.back-face {
+  width: 200.5px;
+  height: 200.3px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-face:hover {
+  transform: scale(0.98);
+}

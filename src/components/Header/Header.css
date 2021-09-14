@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap");
+
+.header-container {
+  background-color: #afeeee;
+  margin: 2% 10%;
+  border-radius: 3px;
+}
+
+.score-level {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.level {
+  font-size: 35px;
+  font-family: "ZCOOL KuaiLe";
+  word-spacing: 10px;
+  color: #00008b;
+}
+
+.back-next-level {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-level {
+  border: none;
+  background: #afeeee;
+  padding: 10px;
+  font-family: "ZCOOL KuaiLe";
+  color: #00008b;
+  font-size: 20px;
+}
